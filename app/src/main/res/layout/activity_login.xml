@@ -21,25 +21,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/loginFacebookBTN"
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginEnd="35dp"
-                    android:background="@drawable/rounded_facebook_layout"
-                    android:drawableLeft="@mipmap/facebook"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-                    android:text="@string/facebooklogin"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/loginGoogleBTN" />
-
-                <Button
-                    android:id="@+id/submitBTN"
+                    android:id="@+id/loginBTN"
                     android:layout_width="0dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="40dp"
@@ -47,12 +29,12 @@
                     android:layout_marginEnd="40dp"
                     android:background="@drawable/rounded_submit_layout"
                     android:onClick="loginButtonPressed"
-                    android:text="@string/submit"
+                    android:text="Login"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editText2" />
+                    app:layout_constraintTop_toBottomOf="@+id/passwordLogin" />
 
                 <Button
                     android:id="@+id/loginGoogleBTN"
@@ -72,7 +54,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/orTV" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/passwordLogin"
                     android:layout_width="0dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="40dp"
@@ -85,10 +67,10 @@
                     android:paddingLeft="15dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editText" />
+                    app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/emailLogin"
                     android:layout_width="0dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="40dp"
@@ -124,7 +106,7 @@
                     android:layout_width="0dp"
                     android:layout_height="62dp"
                     android:layout_marginStart="75dp"
-                    android:layout_marginTop="48dp"
+                    android:layout_marginTop="68dp"
                     android:layout_marginEnd="75dp"
                     android:gravity="center"
                     android:text="@string/app_name"
@@ -146,19 +128,9 @@
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/submitBTN" />
+                    app:layout_constraintTop_toBottomOf="@+id/loginBTN" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <TextView
-                android:id="@+id/acceptanceTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="@string/acceptance"
-                android:textSize="18sp" />
 
         </LinearLayout>
     </ScrollView>
