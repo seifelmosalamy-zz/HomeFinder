@@ -11,6 +11,7 @@ import android.view.View;
 //saradadsdasadsdassdasddsa
 //hey babayy
 //bs kda bos ht3ml push ezay b2a
+//ya rab akon sa7 we nng7
 public class HomeActivity extends AppCompatActivity {
 
     @Override
