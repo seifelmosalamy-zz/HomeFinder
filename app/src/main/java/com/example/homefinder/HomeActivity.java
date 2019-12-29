@@ -6,12 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-//comment
-//hey yabasha //elfekra kda  hnft7 github desktop hydrb brdo ashan hy3oz y push el confirgurations
-//saradadsdasadsdassdasddsa
-//hey babayy
-//bs kda bos ht3ml push ezay b2a
-//ya rab akon sa7 we nng7
 public class HomeActivity extends AppCompatActivity {
 
     @Override
