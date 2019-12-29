@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.homefinder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:5-79
+16-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:5-79
+17-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:12:5-81
+18-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:13:5-67
+19-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:13:22-64
+20
+21    <!-- Include required permissions for Google Maps API to run. -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:15:5-78:19
+29        android:allowBackup="true"
+29-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.1] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/tlogo"
+32-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:17:9-37
+33        android:label="@string/app_name"
+33-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:18:9-41
+34        android:roundIcon="@mipmap/tlogo"
+34-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:19:9-42
+35        android:supportsRtl="true"
+35-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:20:9-35
+36        android:theme="@style/AppTheme" >
+36-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:21:9-40
+37        <activity android:name="com.example.homefinder.RecyclerViewAdapter" />
+37-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:22:9-66
+37-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:22:19-54
+38        <activity android:name="com.example.homefinder.Apartment" />
+38-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:23:9-47
+38-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:23:19-44
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:32:9-34:55
+48            android:name="com.google.android.geo.API_KEY"
+48-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:33:13-58
+49            android:value="@string/google_maps_key" />
+49-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:34:13-52
+50
+51        <activity
+51-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:36:9-38:35
+52            android:name="com.example.homefinder.MapsActivity"
+52-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:37:13-41
+53            android:label="Map" />
+53-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:38:13-32
+54        <activity
+54-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:39:9-41:72
+55            android:name="com.example.homefinder.SignUpActivity"
+55-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:40:13-43
+56            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+56-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:41:13-69
+57        <activity
+57-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:42:9-44:72
+58            android:name="com.example.homefinder.LoginActivity"
+58-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:43:13-42
+59            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+59-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:44:13-69
+60        <activity
+60-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:45:9-47:72
+61            android:name="com.example.homefinder.HomeActivity"
+61-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:46:13-41
+62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+62-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:47:13-69
+63        <activity
+63-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:48:9-56:20
+64            android:name="com.example.homefinder.SplashScreen"
+64-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:49:13-41
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+65-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:50:13-69
+66            <intent-filter>
+66-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:51:13-55:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:52:17-69
+67-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:52:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:54:17-77
+69-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:54:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:57:9-76:20
+73            android:name="com.example.homefinder.MainActivity"
+73-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:58:13-41
+74            android:label="@string/app_name"
+74-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:59:13-45
+75            android:theme="@style/AppTheme" >
+75-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:60:13-44
+76            <meta-data
+76-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:63:13-65:54
+77                android:name="android.app.searchable"
+77-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:64:17-54
+78                android:resource="@xml/searchable" />
+78-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:65:17-51
+79
+80            <intent-filter>
+80-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:67:13-69:29
+81                <action android:name="android.intent.action.SEARCH" />
+81-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:68:17-71
+81-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:68:25-68
+82            </intent-filter>
+83            <intent-filter>
+83-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:51:13-55:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:52:17-69
+84-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:52:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:54:17-77
+86-->/Users/seifelmosalamy/Desktop/Mobile Project Android/ProjectHomeFinder/HomeFinder/app/src/main/AndroidManifest.xml:54:27-74
+87            </intent-filter>
+88        </activity>
+89
+90        <!-- Needs to be explicitly declared on P+ -->
+91        <uses-library
+91-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+92            android:name="org.apache.http.legacy"
+92-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+93            android:required="false" />
+93-->[com.google.android.gms:play-services-maps:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/4571aad5a887fd148d1da51c3ebdeab0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/4571aad5a887fd148d1da51c3ebdeab0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:17.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/4571aad5a887fd148d1da51c3ebdeab0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+103
+104        <provider
+104-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+105            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+106            android:authorities="com.example.homefinder.lifecycle-process"
+106-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+107            android:exported="false"
+107-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+108            android:multiprocess="true" />
+108-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/seifelmosalamy/.gradle/caches/transforms-2/files-2.1/bba9e662e9f4bf0da774229f97b853fc/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+109    </application>
+110
+111</manifest>

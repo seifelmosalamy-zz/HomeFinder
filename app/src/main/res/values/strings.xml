@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Home Finder</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_search">Search</string>
+    <string name="title_saves">Saves</string>
+    <string name="title_alerts">Alerts</string>
+    <string name="title_more">More</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirmpassword">Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="logintosaveahome">Login to save a home</string>
+    <string name="signuptosaveahome">SignUp to save a home</string>
+    <string name="submit">Submit</string>
+    <string name="or">OR</string>
+    <string name="googlelogin">Continue with Google</string>
+    <string name="facebooklogin">Continue with Facebook</string>
+    <string name="acceptance">I accept Terms of Use and Privacy Policy.</string>
+    <string name="feedheadline">Let\'s start searching for a home</string>
+    <string name="feedtextline">This is your activity feed. As you start to search it will fill up with information personalized to you.</string>
+    <string name="startyoursearch">Start Your Search</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="userquestion">What do you need ?</string>
+    <string name="lease">Lease</string>
+    <string name="rent">Rent</string>
+    <string name="requirements">Fill these requirements please:-</string>
+    <string name="specifications">specifications</string>
+    <string name="location">location</string>
+    <string name="phone">phone</string>
+    <string name="price">price for rent</string>
+    <string name="photos">submit photos</string>
+    <string name="rooms">Number of rooms</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">Contacts</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+
+</resources>
