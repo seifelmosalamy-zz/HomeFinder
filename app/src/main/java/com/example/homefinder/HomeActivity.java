@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 //comment
-//hey yabasha
+//hey yabasha //elfekra kda  hnft7 github desktop hydrb brdo ashan hy3oz y push el confirgurations 
 public class HomeActivity extends AppCompatActivity {
 
     @Override
