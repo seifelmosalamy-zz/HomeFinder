@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -47,4 +48,7 @@ dependencies {
     // volley http library
     implementation 'com.android.volley:volley:1.1.0'
     implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+
+
 }
